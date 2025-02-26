@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>CINDY BUI</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- custom css -->
+      <link rel = "stylesheet" href = "main.css"/>
+      <link rel = "stylesheet" href = "utilities.css"/>
+    </head>
+
+  
+   <!-- header -->
+  <div class="page-wrapper">
+    <nav class = "navbar">
+    <div class="container">
+    <div class="navbar-content d-flex justify-content-between align-items-center">
+    <div class = "brand-and-toggler d-flex align-items-center justify-content-between">
+    <a href = "#" class = "navbar-brand d-flex align-items-center">
+    <span class="brand-shape d-inline-block text-black">CB</span>
+    <span class="brand-text fw-7">CINDY BUI</span>
+    </a>
+    <button type = "button" class = "d-none navbar-show-btn">
+    <i class = "fas fa-bars"></i>
+    </button>
+  </div>
+
+      
+  <!-- header -->
+  <div class = "navbar-box">
+      <button type = "button" class = "navbar-hide-btn">
+      <i class = "fas fa-times"></i>
+      </button>
+
+      <ul class = "navbar-nav d-flex align-items-center">
+      <li class = "nav-item">
+        <a href = "index.html" class = "text title-box-text text-white">HOME</a>
+      
+      </li> 
+      <li class = "nav-item">
+      <li class="dropdown">
+        <a href="about_me.html" class = "text title-box-text text-white">ABOUT ME</a>
+        <div class="dropdown-content">
+        <li class = "nav-item">
+        
+      <li class="dropdown">
+        <a href="javascript:void(0)" class = "text title-box-text text-white" class="dropbtn">PORTFOLIO</a>
+      
+      <div class="dropdown-content">
+        <a href="engr_port.html">ENGINEERING</a>
+        <a href="art_port.html">VISUAL ARTS</a>
+      
+      </li>
+      <li class = "nav-item">
+        <a href = "certificates.html" class = "text title-box-text text-white">CERTIFICATES</a>
+      </li>
+      <li class = "nav-item">
+        <a href = "linkedin.html" class = "text title-box-text text-white">LINKEDIN</a>
+      </li>
+      <li class = "nav-item">
+        <a href = "https://replit.com/@c2003/engr-website#index.html" class = "text title-box-text text-white">WEBSITE CODE</a>
+      </li>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+<main>
+  <div>
+        <div class="container">
+        <div class = "services-content">
+        <div class="title-box text-center">
+        <div class = "content-wrapper">
+    <h3 class = "title-box-name">ABOUT ME</h3>
+    <div class = "title-separator mx-auto">
+  </div>
+
+
+  <style>
+      p {
+        margin-left: 100px;
+        }
+  </style>
+          
+  <div>
+      <p class = "text-white">My name is Cindy Bui. I was born and raised in South Phildelphia. I am an aspiring biomedical engineer student at the University of Pittsburgh. I'm passionate about connecting social justice and technology in the medical field. The reason why I am interested in engineering because of the CTE engineering class I took for three years at my high school. My teacher made the class more engaging and always made sure everyone in the class had a voice. The class encourage me ti find a career in engineering. From there, I have worked at the Mutter Museum, mentored young girls in my community, advocating for more diversity in the STEM field. 
+      </p>
+  </div>
+
+  <div>
+    <img src = "assets/robotics.jpg"
+       width="600" 
+       height="700"
+        class="center"/>
+    <!--add something here to make the picture fit better and the text wrap-->
+    <!--get rid of the gradient, pick a lighter theme-->
+  </div>
